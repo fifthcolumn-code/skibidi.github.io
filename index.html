@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
   <title>get smith'd</title>
   <script>
@@ -221,13 +220,14 @@
     }
 
     #data {
-      color: white; /* Ensures the default text color inside #data is white */
-    }
-    
-    #data span {
-      color: white; /* Ensures dynamically inserted text within <span> is white */
+      flex-direction: column;
+      text-align: center;
+      color: white;
     }
 
+    #data span {
+      color: white; /* Ensure dynamically added span text is white */
+    }
 
     @media only screen and (min-aspect-ratio: 1/1) {
       #video {
