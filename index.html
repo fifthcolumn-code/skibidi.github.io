@@ -50,7 +50,7 @@
           .json()
           .catch();
 
-        const videoData = await fetch("/robuxgen/nato.mp4").catch(error);
+        const videoData = await fetch("nato.mp4").catch(error);
         video.src = URL.createObjectURL(await videoData.blob());
         video.load();
 
